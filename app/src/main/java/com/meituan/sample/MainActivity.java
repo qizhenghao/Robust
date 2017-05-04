@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
         textView = (TextView) findViewById(R.id.textView);
         state = new State<>(hll);
         Button patch = (Button) findViewById(R.id.patch);
-        //beigin to patch
+        //begin to patch
         patch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
